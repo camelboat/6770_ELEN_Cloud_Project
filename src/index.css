@@ -1,0 +1,55 @@
+body {
+  margin: 20px;
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#editor-container1 {
+  width: 48%;
+  /*border: 1px solid #5afffa;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#editor-container2 {
+  width: 48%;
+  /*border: 1px solid #b4ff7c;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+#editor1, #editor2 {
+  overflow-y: hidden;
+}
+
+.ql-editor{
+  min-height: 20vh;
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 1em;*/
+}
+
+.ql-bubble{
+  min-height: 10vh;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+}

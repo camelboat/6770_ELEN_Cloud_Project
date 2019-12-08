@@ -43,7 +43,7 @@ export default class ConnectInfoArea extends Component {
                         const log = this.ip_address + " from " + this.location.city + " at " + this.date + "\n";
                         this.textRef.insertText(0, log);
                         // this.textRef.deleteText(0, "Current connection number: 1\n".length);
-                        this.connectNum = this.ydocument.getAwarenessInfo().size()+1;
+                        this.connectNum = this.ydocument.getAwarenessInfo().size+1;
                         this.textRef.insertText(0, "Current connection number: " + this.connectNum + "\n");
                     });
                 console.log(this.location);

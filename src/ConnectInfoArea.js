@@ -44,7 +44,8 @@ export default class ConnectInfoArea extends Component {
                         this.textRef.insertText(0, log);
                         // this.textRef.deleteText(0, "Current connection number: 1\n".length);
                         this.connectNum = this.ydocument.getAwarenessInfo().size+1;
-                        this.textRef.insertText(0, "Current connection number: " + this.connectNum + "\n");
+                        const logNum = "Current connection number: " + this.connectNum + "\n";
+                        this.textRef.insertText(0, logNum);
                     });
                 console.log(this.location);
             })

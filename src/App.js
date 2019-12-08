@@ -33,7 +33,7 @@ export default class App extends Component {
             location: []
         };
         this.readme = "# 6770 ELEN Course Project\n" +
-            "## You can find source codes and project description in " +
+            "## You can find source codes and project description " +
             "[here](https://github.com/camelboat/6770_ELEN_Cloud_Project).\n" +
             "- Author: Changxu Luo, cl3875\n" +
             "- Instructor: Professor Krishan Sabnani and Professor Thomas Woo\n" +

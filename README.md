@@ -4,7 +4,7 @@
 ## Overview
 - This project is a React web application that provides real-time collaborative editors based on Conflict-free Replicated Data Types (CRDTs) implementation Yjs and Quill editor.
 - You can find demo [here](http://3.136.85.49:3000/).
-- More description about the project concepts and algorithms can be found in report.pdf.
+- More description about the project concepts and algorithms can be found in [report.pdf](https://github.com/camelboat/6770_ELEN_Cloud_Project/blob/master/report.pdf).
 
 ## Set up
 ```bash

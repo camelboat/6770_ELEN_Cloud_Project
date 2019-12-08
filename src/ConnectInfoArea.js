@@ -1,13 +1,11 @@
 import React, {Component} from "react";
 import {YText} from "yjs/types/YText";
 import {WebsocketProvider} from "yjs/provider/websocket";
-// import { TextareaBinding } from "yjs/bindings/textarea";
 import ReactQuill from "react-quill";
 import {QuillBinding} from "yjs/bindings/quill";
 import publicIP from 'react-native-public-ip';
 import axios from "axios";
 import 'react-quill/dist/quill.bubble.css';
-// import {translateMarkdown} from "./TranslateMarkdown"
 
 export default class ConnectInfoArea extends Component {
     constructor(props) {
@@ -46,9 +44,6 @@ export default class ConnectInfoArea extends Component {
                         this.textRef.insertText(0, log);
                         // this.textRef.deleteText(0, "Current connection number: 1\n".length);
                         this.textRef.insertText(0, "Current connection number: " + this.ydocument.getAwarenessInfo().size + "\n");
-                        // const range = this.textRef.getSelection();
-                        // const position = range ? range.index : 0;
-                        // this.textRef.insertText(position, ydocument.getLocalAwarenessInfo())
                     });
                 console.log(this.location);
             })

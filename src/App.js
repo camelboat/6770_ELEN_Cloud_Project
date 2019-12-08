@@ -2,8 +2,6 @@ import React, {Component} from "react";
 import ConnectInfoArea from "./ConnectInfoArea";
 import QuillEditor from "./QuillEditor";
 import "./App.css";
-// import ShowArea from "./TranslateMarkdown";
-// import translateMarkdown from "./TranslateMarkdown";
 import marked from "marked";
 
 export const translateMarkdown = (plainText, isGuardXss = false) => {
@@ -35,7 +33,8 @@ export default class App extends Component {
             location: []
         };
         this.readme = "# 6770 ELEN Course Project\n" +
-            "## You can find more project description in [here](https://github.com/camelboat/6770_ELEN_Cloud_Project).\n" +
+            "## You can find more source code and project description in " +
+            "[here](https://github.com/camelboat/6770_ELEN_Cloud_Project).\n" +
             "- Author: Changxu Luo, cl3875\n" +
             "- Instructor: Professor Krishan Sabnani and Professor Thomas Woo\n" +
             "- Course Assistant: Xiaoyang Liu";
